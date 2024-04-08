@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap");
+
+/* Configurações Gerais*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
+    font-size: 62.5%;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0a193d;
+    font-family: "Popping", sans-serif;
+}
+::selection {
+    background: #fff;
+    color: #0a193d;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.7rem 10%;
+    height: 6.5rem;
+    background-color: #ac77cf;
+}
+
+header .logo {
+    font-size: 1.9rem;
+    font-weight: 800;
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    min-height: 100vh;
+    padding: 2rem 9%;
+}
+
+.home {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.home .imagem img {
+    width: 20%;
+    margin-left: 0 2%;
+    border-radius: 20%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+.home .imagem img:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.home .imagem img:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.home .imagem {
+    flex: 1 1 40rem;
+    z-index: 1;
+}
+
+
+.home .conteudo h2 {
+    margin-top: 4rem;
+    font-size: 4rem;
+    font-weight: 800;
+    color: #fff;
+}
+.home .conteudo h2 span {
+    font-size: 5rem;
+    font-weight: 800;
+    color: #9dfbff;
+}
+
+.home .imagem img {
+    width: 45%;
+    margin-left: 0 6%;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.home .conteudo p {
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 600;
+    padding: 1rem 0;
+}
+
+.home .conteudo p span {
+    font-size: 2.5rem;
+    color: #ac77cf;
+    font-weight: 600;
+    padding: 1rem 0;
+}
+
+.home .formulario label {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.home .formulario input {
+    font-size: 14px;
+    color: black;
+    border-radius: 5px;
+    padding: 8px;
+    display: inline-block;
+}
+
+.home .formulario button {
+    font-size: 13px;
+    color: black
+}
+
+.home .resultado {
+        font-size: 3rem;
+        color: #fff;
+}
